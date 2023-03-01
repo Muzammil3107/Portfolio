@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: rgb(73, 73, 81);
+}
+
+/*nav_bar css start*/
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10px;
+}
+
+.nav_logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.nav_logo i {
+    color: rgb(255, 187, 0);
+    margin-right: 5px;
+}
+
+.nav_bar ul li {
+    display: inline;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.nav_icon i {
+    color: #fff;
+    margin: 14px;
+}
+
+.nav_bar ul li a:hover {
+    border-bottom: solid #000;
+    transition: 1ms;
+    font-size: large;
+}
+
+/*nav_bar css end*/
+
+/*landing first container css*/
+.first_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.intro{
+    position: absolute;
+    left: 8%;
+}
+.services{
+    position: absolute;
+    right: 18%;
+}
+.intro h2{
+    color: #ccc;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.intro h1{
+    color: #fff;
+    font-size: 3em;
+}
+.intro span {
+    color: rgb(255, 187, 0) ;
+    font-weight: bolder;
+
+}
+.intro p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.circle {
+    background-color: rgb(28, 28, 37) !important;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 0 0 50px rgb(28, 28, 37);
+    
+}
+.services .first{
+    font-size: larger;
+}
+.services p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.services a {
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+.services i{
+    color: rgb(255, 187, 0);
+    padding: 7px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+.arrow i{
+   background-color: grey !important ;
+
+}
+.main_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(73, 73, 81);
+    height: 100px;
+    width: 85%;
+    position: absolute;
+    box-shadow: 0 0 10px black;
+    z-index: 10;
+    font-size: larger;
+    color: white;
+
+}
+.picture{
+    position: absolute;
+    z-index: 1;
+    
+}
+.box_container{
+    
+    padding-left: 8%;
+    padding-right: 8% !important;
+}
+.box{
+    font-weight: bold;
+    background-color: rgb(28, 28, 37);
+    height: 45px;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.meta{
+    height: 35px;
+    width: 40px;
+}
+.google{
+    height: 80px;
+    width: 120px;
+}
+.linkedin{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    
+}
+.slack{
+    height: 20px;
+    width: 20px;
+}
+/*service css start*/
+.second_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+  .second_para{
+    line-height: 0.25in;
+    letter-spacing: 0.6px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.service_image{
+    height: 120px;
+    width: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.web{
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px ;
+}
+.h3{
+    color: rgb(255, 187, 0);
+    font-size: 40px;
+}
+.h3 ,.p{
+    margin: 0px;
+    padding: 0px; 
+}
+.heading{
+    font-style: oblique;
+    margin-top: 80px;
+    text-align: center;
+}
+.pr{
+    font-size: 70%;
+    color: #fff;
+}
+.skill{
+    margin-left: 20%;
+}
+.arrow2 {
+    margin-left: 180px;
+    color: rgb(255, 187, 0) ;
+}
+.arrow3 {
+    margin-left: 155px;
+    color: rgb(255, 187, 0);
+}
+.arrow4 {
+    margin-left: 150px;
+    color: rgb(255, 187, 0);
+}
+
+table tr td{
+    height: 100px;
+    width: 140px;
+}
+.color{
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+}
+.data{
+    font-size: 11px;
+    color: #fff;
+}
+.heading2{
+    color: #fff;
+}
+.second_para{
+    color: #fff;
+}
+
+/*CSS For Card Container*/
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.card{
+    background-color: rgb(86, 84, 84);
+    height: 300px;
+    width: 340px;
+}
+.card > i{
+    background-color: rgb(31, 31, 31);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: rgb(255, 187, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+.card > span{
+    font-size: 28px;
+    font-weight: bolder ;
+    margin: 30px;
+    color: #fff;
+}
+.card > p{
+    margin: 30px;
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+}
+
+/*CSS Protfolio Card*/
+
+.main_card_portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.Portfolio_image{
+    border-radius: 15px;
+    margin-left: 15px;
+    height: 100%;
+    width: 100%;
+}
+.portfolio_card{
+    background-color: rgb(28, 28, 37);
+    height: 350px;
+    width: 500px;
+    overflow: hidden;
+}
+.part_of_portfolio_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 30px 40px;
+}
+.Portfolio_detail > h2{
+    font-size: 25px;
+    color: #fff;
+} 
+.part_of_portfolio_card  p{
+    font-size: 14px;
+    color: rgb(255, 187, 0);
+}
+.more_portfolio{
+    text-align: center;
+}
+.more_portfolio >a{
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 187, 0);
+    background-color: rgb(86, 84, 84);
+    padding: 20px 30px 20px 30px;
+}
+.case_study{
+    color: rgb(255, 187, 0);
+}
+
+/*forth_container CSS*/
+
+.forth_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.testimonial{
+    height: 400px;
+    width: 400px;
+}
+.landing_text{
+    line-height: 0.3in;
+    padding-right: 20%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.four{
+    color: rgb(255, 187, 0);
+    font-size: 28px;
+    font-weight: bold;
+}
+.ten{
+    color: #fff;
+}
+.testi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.margin{
+    margin-left: 10%;
+
+}
+
+.arrows i{
+   color: rgb(255, 187, 0);
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 100%;
+    padding: 10px;
+}
+.arrow_right i{
+    background-color: rgb(255, 187, 0);
+    color: gray;
+}
+
+.fifth_container{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.font{
+    font-size: 50px;
+}
+.fifth_container_text i {
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 187, 0);
+    background-color: rgb(28, 28, 37);
+    padding: 20px 30px 20px 30px;
+}
+.fifth_container_text a{
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+}
+
+.contact_me a{
+    color: rgb(28, 28, 37);
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(255, 187, 0);
+    padding: 20px 30px 20px 30px;
+}
+.circle2 {
+    background-color: rgb(35, 35, 42) !important;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 25px rgb(35, 35, 42);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.picture_f{
+    height: 400px;
+}
+.last_words{
+    line-height: 0.3in;
+    
+}
+.bgc{
+    background-color:rgb(28, 28, 37) ;
+}
